@@ -21,7 +21,7 @@ class LoginNetworkManager {
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
-
+        
         let apiModel = model
         
         do {
@@ -33,6 +33,11 @@ class LoginNetworkManager {
             return
         }
         
+        // Added printing of url request message using extention function at end of this file.
+        print("REQUEST: ==============================")
+        request.debug()
+        print("================= ==============================")
+        
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data else {
                 if error == nil{
@@ -40,11 +45,17 @@ class LoginNetworkManager {
                 }
                 return
             }
+            
             if let response = response as? HTTPURLResponse{ guard (200 ... 299) ~= response.statusCode else {
+                print("RESPONSE: ==============================")
                 print("Status code :- \(response.statusCode)")
-                print(response)
+                let jsonString = try? JSONSerialization.jsonObject(with: data)
+                print(jsonString)
+                print("================= ==============================")
                 return
             }
+                
+//            handle 422, 401 and 200 as per jsonString
             }
             do{
                 let json = try JSONSerialization.jsonObject(with: data, options: [])
@@ -54,6 +65,16 @@ class LoginNetworkManager {
                 print(error.localizedDescription)
             }
         }.resume()
+    }
+}
+
+public extension URLRequest {
+    func debug() {
+        print("\(self.httpMethod!) \(self.url!)")
+        print("Headers:")
+        print(self.allHTTPHeaderFields!)
+        print("Body:")
+        print(String(data: self.httpBody ?? Data(), encoding: .utf8)!)
     }
 }
 

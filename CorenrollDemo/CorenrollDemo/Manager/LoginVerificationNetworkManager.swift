@@ -32,6 +32,10 @@ class LoginVerificationNetworkManager {
             return
         }
         
+        print("REQUEST: ==============================")
+        request.debug()
+        print("================= ==============================")
+        
         URLSession.shared.dataTask(with: request) { data, response, error in
             
             if let error = error {
@@ -39,10 +43,22 @@ class LoginVerificationNetworkManager {
                 return
             }
             
+            guard let data = data else {
+                if error == nil{
+                    print(error?.localizedDescription ?? "Unknown Error")
+                }
+                return
+            }
+            
             guard let httpResponse = response as? HTTPURLResponse else {
                 completion(.failure(NSError(domain: "NetworkError", code: 0, userInfo: nil)))
                 return
             }
+            print("RESPONSE: ==============================")
+            print("Status code :- \(httpResponse.statusCode)")
+            let jsonString = try? JSONSerialization.jsonObject(with: data)
+            print(jsonString)
+            print("================= ==============================")
             
             if (200...299).contains(httpResponse.statusCode) {
                 

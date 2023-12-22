@@ -33,11 +33,20 @@ class OTPVerificationNetworkManager {
             completion(.failure(error))
             return
         }
+        print("REQUEST: ==============================")
+        request.debug()
+        print("================= ==============================")
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             
             if let error = error {
                 completion(.failure(error))
+                return
+            }
+            guard let data = data else {
+                if error == nil{
+                    print(error?.localizedDescription ?? "Unknown Error")
+                }
                 return
             }
             
