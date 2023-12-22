@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E520BED2-42E2-40DC-B7E4-71527864904C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3364B48-5644-4954-BB10-812AC19777DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CorenrollDemo/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "login(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B650F48-06EA-454F-8E18-994FFFEFF6FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CorenrollDemo/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "login(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90C1BED6-7A2C-4DEA-82ED-38A733118BAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CorenrollDemo/View/LoggedInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "LoggedInViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "90C1BED6-7A2C-4DEA-82ED-38A733118BAE - befa314ba1b5500c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorenrollDemo.LoggedInViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CorenrollDemo.LoggedInViewController"
+                  moduleName = "CorenrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/punitthakali/Downloads/CloudTech/CorenrollDemo/CorenrollDemo/View/LoggedInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "90C1BED6-7A2C-4DEA-82ED-38A733118BAE - fc28dadea5827e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorenrollDemo.LoggedInViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CorenrollDemo.LoggedInViewController"
+                  moduleName = "CorenrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/punitthakali/Downloads/CloudTech/CorenrollDemo/CorenrollDemo/View/LoggedInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "90C1BED6-7A2C-4DEA-82ED-38A733118BAE - 18a4909ee0d5674b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorenrollDemo.LoggedInViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CorenrollDemo.LoggedInViewController&gt;"
+                  moduleName = "CorenrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/punitthakali/Downloads/CloudTech/CorenrollDemo/CorenrollDemo/View/LoggedInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "90C1BED6-7A2C-4DEA-82ED-38A733118BAE - 5b8df658426b9938"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorenrollDemo.LoggedInViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CorenrollDemo.LoggedInViewController&gt;"
+                  moduleName = "CorenrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/punitthakali/Downloads/CloudTech/CorenrollDemo/CorenrollDemo/View/LoggedInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "90C1BED6-7A2C-4DEA-82ED-38A733118BAE - f804efbd13187271"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorenrollDemo.LoggedInViewController.__deallocating_deinit"
+                  moduleName = "CorenrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/punitthakali/Downloads/CloudTech/CorenrollDemo/CorenrollDemo/View/LoggedInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "90C1BED6-7A2C-4DEA-82ED-38A733118BAE - fc28dadea5827e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorenrollDemo.LoggedInViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CorenrollDemo.LoggedInViewController"
+                  moduleName = "CorenrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/punitthakali/Downloads/CloudTech/CorenrollDemo/CorenrollDemo/View/LoggedInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "90C1BED6-7A2C-4DEA-82ED-38A733118BAE - 5b8df658426b9938"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CorenrollDemo.LoggedInViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CorenrollDemo.LoggedInViewController&gt;"
+                  moduleName = "CorenrollDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/punitthakali/Downloads/CloudTech/CorenrollDemo/CorenrollDemo/View/LoggedInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACEBC469-A25F-4EB4-905E-EA13CA4CFC55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CorenrollDemo/View/LoggedInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "verifyOTPButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
