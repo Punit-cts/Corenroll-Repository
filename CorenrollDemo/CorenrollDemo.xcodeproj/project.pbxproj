@@ -16,7 +16,6 @@
 		49076CF02B2703CE00EAD0C2 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49076CEF2B2703CE00EAD0C2 /* LoginModel.swift */; };
 		49076CF32B2703EC00EAD0C2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49076CF22B2703EC00EAD0C2 /* LoginViewModel.swift */; };
 		490BFAE52B2AD56C00C76341 /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BFAE42B2AD56200C76341 /* LoginNetworkManager.swift */; };
-		49619BA02B32DFC600B30D3D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 49619B9F2B32DFC600B30D3D /* Alamofire */; };
 		497237922B3402E90005D9BC /* LoginVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497237912B3402E90005D9BC /* LoginVerificationNetworkManager.swift */; };
 		497237942B3403750005D9BC /* LoginVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497237932B3403750005D9BC /* LoginVerificationModel.swift */; };
 		497237962B34058C0005D9BC /* OTPVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497237952B34058C0005D9BC /* OTPVerificationNetworkManager.swift */; };
@@ -26,8 +25,6 @@
 		49B466772B3065BF004253BD /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B466762B3065B8004253BD /* LoggedInViewController.swift */; };
 		49D575E52B2C1E9A00FDD9AE /* CustomEmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D575E42B2C1E9600FDD9AE /* CustomEmailTextField.swift */; };
 		49D575E72B2C1ED000FDD9AE /* CustomEmailTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D575E62B2C1ED000FDD9AE /* CustomEmailTextField.xib */; };
-		49E0858C2B319AA200AB0A32 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 49E0858B2B319AA200AB0A32 /* Realm */; };
-		49E0858E2B319AA200AB0A32 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 49E0858D2B319AA200AB0A32 /* RealmSwift */; };
 		49F311A72B355209007579D6 /* CustomPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F311A62B355209007579D6 /* CustomPasswordTextField.swift */; };
 		49F311A92B355227007579D6 /* CustomPasswordTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F311A82B355227007579D6 /* CustomPasswordTextField.xib */; };
 /* End PBXBuildFile section */
@@ -62,9 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49619BA02B32DFC600B30D3D /* Alamofire in Frameworks */,
-				49E0858E2B319AA200AB0A32 /* RealmSwift in Frameworks */,
-				49E0858C2B319AA200AB0A32 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,9 +158,6 @@
 			);
 			name = CorenrollDemo;
 			packageProductDependencies = (
-				49E0858B2B319AA200AB0A32 /* Realm */,
-				49E0858D2B319AA200AB0A32 /* RealmSwift */,
-				49619B9F2B32DFC600B30D3D /* Alamofire */,
 			);
 			productName = CorenrollDemo;
 			productReference = 493D15662B29645300FFC17F /* CorenrollDemo.app */;
@@ -197,8 +188,6 @@
 			);
 			mainGroup = 49076CCD2B27039D00EAD0C2;
 			packageReferences = (
-				49E0858A2B319AA200AB0A32 /* XCRemoteSwiftPackageReference "realm-swift" */,
-				49619B9E2B32DFC600B30D3D /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 49076CCD2B27039D00EAD0C2;
 			projectDirPath = "";
@@ -468,43 +457,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		49619B9E2B32DFC600B30D3D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.8.1;
-			};
-		};
-		49E0858A2B319AA200AB0A32 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		49619B9F2B32DFC600B30D3D /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 49619B9E2B32DFC600B30D3D /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		49E0858B2B319AA200AB0A32 /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 49E0858A2B319AA200AB0A32 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		49E0858D2B319AA200AB0A32 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 49E0858A2B319AA200AB0A32 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 49076CCE2B27039D00EAD0C2 /* Project object */;
 }
